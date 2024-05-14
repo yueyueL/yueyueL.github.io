@@ -68,23 +68,25 @@
 		<!-- Main -->
         <div id="main">
                 <!-- Interests -->
-                    <section id="Software Security" class="two">
+                    <section id="Software Development Applications" class="two">
                         <div class="container">
                     
                             <header> 
-                                <h2 class="icon fa-dot-circle-o"></h2><h2>Software Security</h2>
+                                <h2 class="icon fa-dot-circle-o"></h2><h2>Software Development Applications</h2>
                             </header>
                             
-                            <p style="text-align: left;"> <strong>Motivation: </strong>Modern software systems are increasingly complex and interconnected, making them vulnerable to various security threats. Ensuring the security and reliability of software is crucial to protect sensitive data, maintain user trust, and prevent costly breaches and attacks.</p>
-                            <p style="text-align: left;"> <strong>Approach: </strong>To address software security challenges, we need to develop advanced techniques for analyzing and securing software systems. Our research focuses on leveraging program analysis and learning-based approaches to identify and mitigate security risks, enhance software reliability, and protect against emerging threats. We have designed a comprehensive array of novel automated solutions, including:
+                            <p style="text-align: left;"> 
+                                <strong>Motivation:</strong> In today's rapidly evolving technological landscape, software development applications play a critical role in enhancing productivity for software developers. For instance, in the popular Visual Studio Code (VSCode), there are more than 50,000 different extensions designed to assist developers in various tasks. With the advent of AI, these tools are becoming even more sophisticated, ensuring best practices and improving the overall development experience.                            </p>
+                            <p style="text-align: left;"> 
+                                <strong>Approach:</strong> Our research aims to uncover unknown issues and gain empirical insights into the reliability and effectiveness of these applications. We focus on exploring how these tools can assist developers, identifying potential issues, and proposing solutions. Our research includes:
                                 <li style="text-align: left;">
-                                    <b>Deep learning-based malware detection:</b> We have developed innovative deep learning models to accurately detect and classify malware in Android applications. Our work includes a systematic literature review of deep learning techniques for Android malware defenses [<a href="https://dl.acm.org/doi/abs/10.1145/3544968"> CSUR 22</a>] and an explainable AI approach to understanding why these models perform so well [<a href="https://ieeexplore.ieee.org/document/9978981"> ISSRE 22</a>].
+                                    <b>AI-generated Code:</b> Popular Large Language Model (LLM) products like ChatGPT and GitHub Copilot can help software developers directly write code. However, LLM tools that produce low-quality code are not reliable for real-world usage. We conducted a systematic study on the quality of 4,066 LLM-generated code implementations in two popular programming languages, Java and Python [<a href="https://arxiv.org/abs/2307.12596">TOSEM 24</a>]. Our study unveils various issues in LLM-generated code, including solution inaccuracies and maintainability issues. To address these, we propose three different strategies to improve code quality.
                                 </li>
                                 <li style="text-align: left;">
-                                    <b>Identifying security risks through program analysis:</b> We have applied program analysis techniques to identify and mitigate security vulnerabilities in software systems. Our work includes valuating security risks in VSCode extensions through taint analysis (under review), and understanding and preventing data exposure in VSCode extensions (under review).
+                                    <b>Software Security:</b> Maintaining security when using development applications is paramount. We have applied program analysis techniques to identify and mitigate security vulnerabilities in VSCode systems. Our work includes evaluating security risks in VSCode extensions through taint analysis (under review) and understanding and preventing data exposure in VSCode extensions (under review).
                                 </li>
                                 <li style="text-align: left;">
-                                    <b>Reliability:</b> Automated analysis for software security is essential, but program analysis often results in high false negatives, while learning-based approaches can suffer from experimental biases. For example, our research [<a href="https://ieeexplore.ieee.org/document/9978981">ISSRE 22</a>] shows that temporal sample inconsistency in the training dataset leads to over-optimistic classification performance (up to 99% F1 score and accuracy). Importantly, our results indicate that ML models classify malware based on temporal differences between malware and benign samples, rather than the actual malicious behaviors.
+                                    <b>AI Coding Assistants:</b> As Large Language Model (LLM) products continue to evolve, providers such as OpenAI with GPT-4 and Anthropic with Claude 2 API are offering powerful APIs. These advancements enable third-party developers to create increasingly sophisticated AI-coding assistants, significantly enhancing the coding process and developer productivity. My research focuses on exploring the best practices for designing these software tools to ensure they are reliable, efficient, and user-friendly.
                                 </li>                               
                             </p>
 
@@ -92,55 +94,36 @@
                     </section>
 
 					<!-- Publications -->
-					<section id="publications" class="four">
+					<section id="publications" class="three">
 						<div class="container">
 							<header>
-								<h2 class="icon fa-file-text-o"></h2><h2>Publications</h2>
+								<h2 class="icon fa-file-text-o"></h2><h2>Related Publications</h2>
 							</header>                            
-								<div class="publication"> 
-									<div class="publicationButton">
-									<a href="https://dl.acm.org/doi/abs/10.1145/3544968" class="icon fa-file-text-o"></a>
-									<a href="https://github.com/yueyueL/DL-based-Android-Malware-Defenses-review" class="icon fa-github"></a>
-									</div>
-									<b class="titlePublication">Deep Learning for Android Malware Defenses: a Systematic Literature Review</b><br>
-									<b class="me">Yue Liu</b>, Chakkrit Tantithamthavorn, Li Li, and Yepang Liu<br>
-									<b class="conference">ACM Computing Surveys (<b class="me"><a href="https://dl.acm.org/journal/csur" target="_blank">CSUR 2022</a></b>), 55(8): 1-36 <b><em>(Core A*, SCI-Q1)</em></b></b>
-								</div><br>
-							
-								<div class="publication">
-									<div class="publicationButton">
-									<a href="https://ieeexplore.ieee.org/document/9978981" class="icon fa-file-text-o"></a>
-									<a href="https://github.com/yueyueL/XAIforAndroidMalware" class="icon fa-github"></a>
-									</div>
-									<b class="titlePublication">Explainable AI for Android Malware Detection: Towards Understanding Why the Models Perform So Well?</b><br>
-									<b class="me">Yue Liu</b>, Chakkrit Tantithamthavorn, Li Li, and Yepang Liu<br>
-									<b class="conference">33rd International Symposium on Software Reliability Engineering (<b class="me"><a href="https://issre2022.github.io/" target="_blank">ISSRE 2022</a></b>), 169-180 <b><em>(Core A, CCF B)</em></b></b>
-								</div><br>
-																
-                                <div class="publication">
-                                    <div class="publicationButton">
-                                    <a href="https://ieeexplore.ieee.org/abstract/document/10298755/" class="icon fa-file-text-o"></a>  
-                                    </div>
-                                    <b class="titlePublication">Detecting Temporal Inconsistency in Biased Datasets for Android Malware Detection</b><br>
-                                    Haonan Hu, <b class="me">Yue Liu</b>, Yanjie Zhao, Yonghui Liu, Xiaoyu Sun, Chakkrit Tantithamthavorn, and Li Li<br>
-                                    <b class="conference">38th IEEE/ACM International Conference on Automated Software Engineering Workshops (<b class="me"><a href="https://conf.researchr.org/track/ase-2023/asew-2023-papers#About" target="_blank">ASEW 2023</a></b>), 17-23 </b>  
-                                </div><br>
+                            <div class="publication">
+                                <div class="publicationButton">
+                                    <a href="https://arxiv.org/abs/2307.12596" class="icon fa-file-text-o"></a>
+                                    <a href="https://github.com/yueyueL/ChatGPT-CodeGenAnalysis" class="icon fa-github"></a>
+                                </div>
+                                <b class="titlePublication">Refining ChatGPT-Generated Code: Characterizing and Mitigating Code Quality Issues</b><br>
+                                <b class="me">Yue Liu</b>, Thanh Le-Cong, Ratnadira Widyasari, Chakkrit Tantithamthavorn, Li Li, Xuan-Bach D. Le, and David Lo<br>
+                                <b class="conference">ACM Transactions on Software Engineering and Methodology (<b class="me"><a href="https://tosem.acm.org/" target="_blank">TOSEM 2024</a></b>), to appear <b><em>(Core A*, CCF A)</em></b></b>
+                            </div><br>
 
-                                <div class="publication">
-                                    <div class="publicationButton">
-                                    </div>
-                                    <b class="titlePublication">TaintVSCode: Evaluating VSCode Extensions Security Risks Through Taint Analysis</b><br>
-                                    <b class="me">Yue Liu</b>, Yanjie Zhao, Chakkrit Tantithamthavorn, Li Li and David Lo<br>
-                                    <b class="conference">Under Review</b>  
-                                </div><br>
+                            <div class="publication">
+                                <div class="publicationButton">
+                                </div>
+                                <b class="titlePublication">TaintVSCode: Evaluating VSCode Extensions Security Risks Through Taint Analysis</b><br>
+                                <b class="me">Yue Liu</b>, Yanjie Zhao, Chakkrit Tantithamthavorn, Li Li and David Lo<br>
+                                <b class="conference">Under Review</b>  
+                            </div><br>
 
-                                <div class="publication">
-                                    <div class="publicationButton">
-                                    </div>
-                                    <b class="titlePublication">Protect Your Secrets: Understanding and Preventing Data Exposure in VSCode Extensions</b><br>
-                                    <b class="me">Yue Liu</b>, Chakkrit Tantithamthavorn, and Li Li<br>
-                                    <b class="conference">Under Review </b>  
-                                </div><br>
+                            <div class="publication">
+                                <div class="publicationButton">
+                                </div>
+                                <b class="titlePublication">Protect Your Secrets: Understanding and Preventing Data Exposure in VSCode Extensions</b><br>
+                                <b class="me">Yue Liu</b>, Chakkrit Tantithamthavorn, and Li Li<br>
+                                <b class="conference">Under Review </b>  
+                            </div><br>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 	
 						</div>
