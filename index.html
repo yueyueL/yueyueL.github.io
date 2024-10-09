@@ -23,6 +23,25 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
+	
+		<style>
+		.research-services-content {
+				text-align: left;
+				font-size: 0.7em;
+		}
+
+		.research-services-content ul {
+			padding-left: 20px;
+		}
+
+		.research-services-content li {
+			margin-bottom: 5px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			}
+		</style>
+
 	</head>
 	<body>
 
@@ -48,6 +67,8 @@
 								<!-- <li><a href="#job-search" id="job-search-link" class="skel-layers-ignoreHref"><span class="icon fa-search">Job Search</span></a></li> -->
 								<li><a href="#publications" id="publications-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Publications</span></a></li>
 								<!-- <li><a href="#chatresearch" id="chatresearch-link" class="skel-layers-ignoreHref"><span class="icon fa-flask">ChatResearch</span></a></li> -->
+								<li><a href="#research-services" id="research-services-link" class="skel-layers-ignoreHref"><span class="icon fa-users">Research Services</span></a></li>
+								<li><a href="#honors-funding" id="honors-funding-link" class="skel-layers-ignoreHref"><span class="icon fa-trophy">Honors</span></a></li>
 								<li><a href="#teaching" id="teaching-link" class="skel-layers-ignoreHref"><span class="icon fa-edit">Teaching</span></a></li>
 								<!-- <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a></li> -->
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
@@ -205,7 +226,8 @@
 									<b class="conference">ACM Transactions on Software Engineering and Methodology (<b class="me"><a href="https://tosem.acm.org/" target="_blank">TOSEM 2024</a></b>), to appear <b><em>(Core A*, CCF A)</em></b></b>
 								</div><br>
 
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->								
+
 								<div class="publication"> 
 									<div class="publicationButton">
 									<a href="https://dl.acm.org/doi/abs/10.1145/3544968" class="icon fa-file-text-o"></a>
@@ -333,23 +355,53 @@
 						</div>
 					</section>
 
-
-				<!-- ChatResearch
-				<section id="chatresearch" class="two">
+				<section id="research-services" class="six">
 					<div class="container">
 						<header>
-							<h2 class="icon fa-flask"></h2><h2>ChatResearch: AI Research Assistant</h2>
+							<h2 class="icon fa-users"></h2><h2>Research Services</h2>
 						</header>
-						
-						<p style="text-align: left;">I am also interested in helping junior researchers build and expand the borders of knowledge. To support this, I am maintaining an AI-powered desktop application called <strong>ChatResearch</strong>. It is designed to assist early-career research students and experienced researchers in their academic pursuits. ChatResearch offers features such as paper library management, paper collection, and the ability to chat with your paper library. You can learn more about it <a href="https://yueyuel.github.io/ResearchChat/" style="text-decoration: underline;">here</a>.</p>
-						
+						<div class="research-services-content">
+							<h3>Program Committee Member</h3>
+							<ul>
+								<li><strong>AAAI 2024</strong>: The 38th Annual AAAI Conference on Artificial Intelligence, Undergraduate Consortium (Core A*)</li>
+								<li><strong>MSR 2025</strong>: International Conference on Mining Software Repositories, Junior Program Committee (Core A)</li>
+								<li><strong>MSR 2023</strong>: International Conference on Mining Software Repositories, Junior Program Committee (Core A)</li>
+							</ul>
+							
+							<h3>Journal Reviewer</h3>
+							<ul>
+								<li><strong>TSE</strong>: IEEE Transactions on Software Engineering (Core A*)</li>
+								<li><strong>TMC</strong>: IEEE Transactions on Mobile Computing (Core A*)</li>
+								<li><strong>IEEE Software</strong></li>
+							</ul>
+							
+							<h3>Conference Reviewer</h3>
+							<ul>
+								<li><strong>WWW 2024</strong>: The International World Wide Web Conference (Core A*)</li>
+								<li><strong>EACL 2023</strong>: The 18th Conference of the European Chapter of the Association for Computational Linguistics (Core A)</li>
+								<li><strong>NeurIPS 2024</strong>: The 4th Workshop on Mathematical Reasoning and AI</li>
+							</ul>
+							
+						</div>
 					</div>
-				</section> -->
-									
+				</section>
 
+				<!-- New Honors and Funding section -->
+				<section id="honors-funding" class="three">
+					<div class="container">
+						<header>
+							<h2 class="icon fa-trophy"></h2><h2>Honors and Funding</h2>
+						</header>
+						<ul>
+							<li>Researcher Access Program Funding, OpenAI, 2024</li>
+							<li>Google Cloud Research Credits, 2025</li>
+							<li>Postgraduate Publications Award, Monash University, 2024</li>
+						</ul>
+					</div>
+				</section>
 
 				<!-- Teaching -->
-					<section id="teaching" class="three">
+					<section id="teaching" class="eight">
 						<div class="container">
 							
 							<header>
@@ -389,7 +441,7 @@
 					</section> -->
 			
 				<!-- Contact -->
-				<section id="contact" class="contact dark cover">
+				<section id="contact" class="nine contact dark cover">
 					<div class="container">
 						<header>
 							<h2 class="icon fa-envelope"></h2><h2>Contact</h2>
